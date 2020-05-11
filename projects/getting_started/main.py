@@ -10,3 +10,7 @@ from pybricks.robotics import DriveBase
 
 # Write your program here
 brick.sound.beep()
+
+dual_motor = Motor(Port.B, Port.A)
+
+dual_motor(direction.CLOCKWISE,)
